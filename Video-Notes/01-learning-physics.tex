@@ -1,0 +1,121 @@
+\documentclass[12pt, letterpaper]{article}
+
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{outlines}
+
+\begin{document}
+    \section{Physics: What the heck am I learning?}
+
+    \begin{equation}
+        \nonumber
+        \begin{split}
+            % The math columns
+            \underline{\text{Math}} \\
+            \int_{}^{}\frac{df}{dx} \,\mathrm{d}x = f
+        \end{split}
+        \quad \vline \quad
+        \begin{split}
+            % The Qualitative columns
+            \underline{\text{Qualitative}} \\
+            \text{Position change over time linearly with no acceleration}         
+        \end{split}
+        \quad \vline \quad
+        \begin{split}
+            % The Quantitative columns
+            \underline{\text{Quantitative}} \\
+            \sum_{}^{}\vec{F}=m\vec{a} \\
+            \vec{a} = \frac{d\vec{v}}{df} \\
+            \vec{x} = \frac{d\vec{v}}{df} \\
+        \end{split}
+    \end{equation}
+
+    \section{4 Fields of Physics}
+    There 4 kinds of physics:
+    \begin{center}
+        \begin{tabular}{| c | c |}
+          \hline
+            classical mechanics & quantum mechanics \\ \hline
+            relativity          & QFT \\
+          \hline
+        \end{tabular}
+      \end{center}
+    All related to E\&M.
+
+    \section{The 4 Basic Forces}
+    \begin{outline}[enumerate]
+    \1 Strong force: 
+      \2 Bring neutron, proton, electron away, together
+    \1 Electromagnectic force:
+      \2 Drive electric motor, magnets, give us friction, air resistance, normal forces
+    \1 Weak:
+      \2 Nuclear decay. beta and gamma.
+    \1 Gravity
+      \2 Weaker than all of them. Behave like E\&M so use almost the same euqation
+    \end{outline}
+
+    \section{Scalars and Vectors}
+    \begin{outline}[enumerate]
+      \1 Scalars 
+        \2 unit-less
+        \2 magnitude
+        \2 mass
+        \2 time
+        \2 count
+      \1 Vectors
+        \2 Length(magnitude) and direction
+        \2 Know the representation of a Vectors
+        \2 Addition and multiplication is the typical operator
+        \2 You can add Vectors, scalar product
+          \3 dot product and cross product does scalar computation
+        \2 Displacement
+      \1 vector addition/subtraction
+      \1 dot product and cross product to manipulate vectors
+    \end{outline}
+
+    \section{Dot Product and Cross Product}
+    \begin{equation}
+      \nonumber
+      \begin{split}
+          % The dot product columns
+          \underline{\text{Dot Product}} \\
+          \vec{a}\cdot \vec{b} &= c \quad \text{(scalar)} \\
+          &= ab \cos{\theta} \quad \\
+          \vec{a} \cdot \vec{a} = a^2 \\
+          order of operation don't matter
+      \end{split}
+      \quad \vline \quad
+      \begin{split}
+          % The cross product columns
+          \underline{\text{Cross Product}} \\
+          \vec{a} \times \vec{b} &= \vec{c} \quad \text{(vector)} \\
+          &= ab \sin{\theta} \hat{n} \\
+          \hat{n} \perp \vec{a} \\
+          \hat{n} \perp \vec{b} \\
+          order of operation matter.\\
+          \vec{a} \times \vec{a} = 0
+          \quad
+      \end{split}
+  \end{equation}
+  \begin{outline}[enumerate]
+  \1 If $a$ double in size, then dot product double in size. 
+  \1 If you $a$ double in size, then cross product double in size.
+  \1 For cosine term, 0 degree give 1, 90 degree give 0, 180 degree give -1, and so on.
+    \2 Therefore, the dot product is maximized when the 2 vector point to the same direction (or how parallel they are)
+  \1 For sine term, 0 degree give 0, 90 degree give 1, 180 degree give 0.
+    \2 Therefore, the cross product is maximized when the 2 vectos are perpendiculr to each other
+  \end{outline}
+
+  \subsection{The Dirac Delta Function}
+
+  \subparagraph{The divergence of $\frac{\dot{r}}{r^2}$}
+  \begin{equation}
+    \Delta\cdot \vec{v} = \frac{1}{r^2}\frac{\partial}{\partial r}(r^2*\frac{1}{r^2}) = 0 \quad \text{The divergence is 0} \\
+    
+    \int_{volume}^{}\Delta \cdot \vec{v}  \,\mathrm{x} = \oint_{surface}{}v   \, \mathrm{\vec{a}} \\
+
+
+    Gauss's theorem
+  \end{equation}
+
+\end{document}
